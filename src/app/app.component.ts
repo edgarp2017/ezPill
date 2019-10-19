@@ -25,8 +25,13 @@ export class AppComponent {
     {
       title: 'Cabinet',
       url: '/cabinet',
-      icon: 'home'
-    }
+      icon: 'filing'
+    },
+    {
+      title: 'Medicine Form',
+      url: '/medicine-form',
+      icon: 'medkit'
+    },
   ];
 
   constructor(
