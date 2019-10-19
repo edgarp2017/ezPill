@@ -17,7 +17,8 @@ const routes: Routes = [
   },
   { path: 'cabinet', loadChildren: './cabinet/cabinet.module#CabinetPageModule' },
   { path: 'add-meds', loadChildren: './add-meds/add-meds.module#AddMedsPageModule' },
-  { path: 'contact-professional', loadChildren: './contact-professional/contact-professional.module#ContactProfessionalPageModule' }
+  { path: 'contact-professional', loadChildren: './contact-professional/contact-professional.module#ContactProfessionalPageModule' },
+  { path: 'signup', loadChildren: './pages/signup/signup.module#SignupPageModule' }
 ];
 
 @NgModule({
