@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyD-6i0AGhd5UErmZFL-hUYcQ7xlxOeX0mM",
+    authDomain: "ezpill.firebaseapp.com",
+    databaseURL: "https://ezpill.firebaseio.com",
+    projectId: "ezpill",
+    storageBucket: "ezpill.appspot.com",
+    messagingSenderId: "500756650665",
+    appId: "1:500756650665:web:1fc8ae6c94a498672a67b8",
+    measurementId: "G-NWQDTM8XX4"
+  }
 };
 
 /*
