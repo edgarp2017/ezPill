@@ -6,4 +6,62 @@
 
 <ion-content>
 
+  <!-- fab placed to the (vertical) center and end -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button href="add-meds" color="danger">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+ <!-- if you wanna add the floaty things
+    <ion-fab-list side="top">
+      <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+-->
+  </ion-fab>
+
+<ion-grid>
+ <ion-row>
+ 	<ion-col>
+	<ion-card>
+	  <ion-item href="https://www.facebook.com/" class="activated">
+	    <ion-icon name="wifi" slot="start"></ion-icon>
+	    <ion-label>Med #1</ion-label>
+	  </ion-item>
+	 </ion-card>
+	</ion-col>
+
+ 	<ion-col>
+	<ion-card>
+	  <img src="assets/img/myImage2.jpg">
+  <ion-fab right top>
+      <ion-icon name="pin"></ion-icon>
+  </ion-fab>
+	  <ion-item href="#">
+	    <ion-icon name="wine" slot="start"></ion-icon>
+	    <ion-label>Med #2</ion-label>
+	  </ion-item>
+	</ion-card>
+	</ion-col>
+
+	<ion-col>
+	<ion-card>
+	  <ion-item class="activated">
+	    <ion-icon name="warning" slot="start"></ion-icon>
+	    <ion-label>Med #3</ion-label>
+	  </ion-item>
+	</ion-card>
+	</ion-col>
+</ion-row>
+</ion-grid>
+
+	<ion-card>
+	  <ion-item>
+	    <ion-icon name="walk" slot="start"></ion-icon>
+	    <ion-label>Card Button Item 2</ion-label>
+	  </ion-item>
+	</ion-card>
 </ion-content>
+
+
