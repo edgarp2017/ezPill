@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as firebase from 'firebase/app';
 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
@@ -17,9 +18,14 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
+      title: 'Add Meds',
+      url: '/add-meds',
       icon: 'list'
+    }, 
+    {
+      title: 'Cabinet',
+      url: '/cabinet',
+      icon: 'home'
     }
   ];
 
@@ -29,6 +35,7 @@ export class AppComponent {
     private statusBar: StatusBar
   ) {
     this.initializeApp();
+    //firebase.initializeApp();
   }
 
   initializeApp() {
