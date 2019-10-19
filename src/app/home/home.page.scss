@@ -1,4 +1,46 @@
-.welcome-card img {
+/*.welcome-card img {
   max-height: 35vh;
   overflow: hidden;
+}*/
+
+
+
+/*.blue-square-container {
+  text-align: center;
+}
+
+.alerts {
+  background-color: #FFDC00;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}*/
+/*
+.refill-meds {
+  background-color: #3D9970;
+  width: 100px;
+  height: 100px;
+  position: center;
+  left: 50%;
+  margin-left: -50px;
+}*/
+
+.ion-button{
+  background-color: #3D9970;
+/*  background-activated: #5EAEEB;
+*/width: 100px;
+  height: 100px;
+  position: center;
+  left: 50%;
+  margin-left: -50px;
+  float: left;
+}
+
+
+.ion-button + .ion-card {
+  font-size: 200%;
+}
+
+.masters {
+  background-color: green;
 }
