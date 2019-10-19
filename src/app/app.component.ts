@@ -18,15 +18,15 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Add Meds',
-      url: '/add-meds',
-      icon: 'list'
-    }, 
-    {
       title: 'Cabinet',
       url: '/cabinet',
       icon: 'filing'
     },
+    {
+      title: 'Add Meds',
+      url: '/add-meds',
+      icon: 'list'
+    }, 
     {
       title: 'Medicine Form',
       url: '/medicine-form',
