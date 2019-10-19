@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+//import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
 @Component({
   selector: 'app-add-meds',
