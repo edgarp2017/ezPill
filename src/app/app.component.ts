@@ -27,11 +27,6 @@ export class AppComponent {
       url: '/add-meds',
       icon: 'list'
     }, 
-    {
-      title: 'Medicine Form',
-      url: '/medicine-form',
-      icon: 'medkit'
-    },
   ];
 
   constructor(

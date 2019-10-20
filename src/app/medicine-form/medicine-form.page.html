@@ -1,47 +1,64 @@
 <ion-header>
   <ion-toolbar>
+  	<ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
     <ion-title>Medicine Form</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
-<!-- Input with placeholder -->
-<ion-input placeholder="Enter Input"></ion-input>
+<ion-card>
+	<ion-item>
+	  <ion-label position="floating">Medicine Name</ion-label>
+	  <ion-input></ion-input>
+	</ion-item>
 
-<!-- Readonly input -->
-<ion-input value="Readonly" readonly></ion-input>
+	<ion-list>
+	  <ion-radio-group>
+	    <ion-list-header>
+	      <ion-label class="headers">Type</ion-label>
+	    </ion-list-header>
 
-<ion-item>
-  <ion-label position="floating" class="name">Medicine Name</ion-label>
-  <ion-input></ion-input>
-</ion-item>
-<ion-list>
-  <ion-radio-group>
-    <ion-list-header>
-      <ion-label>Type</ion-label>
-    </ion-list-header>
+	    <ion-item>
+	      <ion-label>Liquid</ion-label>
+	      <ion-radio slot="start" value="liquid" checked></ion-radio>
+	    </ion-item>
 
-    <ion-item>
-      <ion-label>Liquid</ion-label>
-      <ion-radio slot="start" value="liquid" checked></ion-radio>
-    </ion-item>
+	    <ion-item>
+	      <ion-label>Tablet/Capsule</ion-label>
+	      <ion-radio slot="start" value="tablet/capsule"></ion-radio>
+	    </ion-item>
 
-    <ion-item>
-      <ion-label>Tablet/Capsule</ion-label>
-      <ion-radio slot="start" value="tablet/capsule"></ion-radio>
-    </ion-item>
+	    <ion-item>
+	      <ion-label>Topical</ion-label>
+	      <ion-radio slot="start" value="topical"></ion-radio>
+	    </ion-item>
 
-    <ion-item>
-      <ion-label>Topical</ion-label>
-      <ion-radio slot="start" value="topical"></ion-radio>
-    </ion-item>
+	    <ion-item>
+	      <ion-label>Other</ion-label>
+	      <ion-radio slot="start" value="other"></ion-radio>
+	    </ion-item>
+	  </ion-radio-group>
+	</ion-list>
 
-    <ion-item>
-      <ion-label>Other</ion-label>
-      <ion-radio slot="start" value="other"></ion-radio>
-    </ion-item>
-  </ion-radio-group>
-</ion-list>
+	<ion-item>
+	  <ion-label position="floating">Dosage</ion-label>
+	  <ion-input></ion-input>
+	</ion-item>
 
+	<ion-item>
+	  <ion-label position="floating">Frequency
+	  <ion-input></ion-input>
+	</ion-item>
+
+	<ion-item>
+	  <ion-label position="floating">Notes</ion-label>
+	  <ion-input></ion-input>
+	</ion-item>
+
+</ion-card>
+
+	<ion-button class= "submitting" type="submit">Submit</ion-button>
 </ion-content>
